@@ -16,9 +16,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-      - uses: pnpm/action-setup@v2.2.2
-        with:
-          version: 7.9.0
       - run: npm install
       - run: npm run test:unit
       - name: report coverage
