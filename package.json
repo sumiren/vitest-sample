@@ -1,0 +1,21 @@
+{
+  "name": "vitest-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "test:unit": "vitest run test/unit --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumiren/vitest-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumiren/vitest-sample/issues"
+  },
+  "homepage": "https://github.com/sumiren/vitest-sample#readme",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.23.4",
+    "vitest": "^0.23.4"
+  }
+}
